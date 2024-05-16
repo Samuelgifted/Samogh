@@ -1,0 +1,2 @@
+# Samogh
+A class project
