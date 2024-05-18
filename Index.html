@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Samuel gifted stories</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    </head>
+    <body>
+     <section class="header">
+         <nav>
+            <a href="Index.html"><img src="Images/sgm.png"></a>
+             <div class="nav-links" id="navLinks">  
+                <i class="fa fa-window-close" onclick="hideMenu()"></i>
+                <ul>
+                      <li><a href="">HOME</a></li>
+                     <li><a href="">PROFILE</a></li>
+                     <li><a href="">PROJECTS</a></li>
+                     <li><a href="">CONTACT US</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+
+            </nav>
+    <div class="text-box">
+        <h1>World's best selling stories</h1>
+        <p> Meet Samuel Oghenevwegba the most gifted writer on the planet<br> 
+            Get ready for an adventure</p>
+        <a href="" class="hero-btn">Visit Us To know More</a>
+    </div>
+</section>
+<!-----Mycollection----->
+<section class="Mycollection">
+    <h1>My cool collection</h1>
+    <p>Feel the thrill</p>
+
+    <div class="row">
+     <div class="Storygallery">
+<h3>Adventure</h3>
+<p>Clash of the wolf clan</p>
+<p>Storm Rex</p>
+<P>To die for the King</P>
+<p>The Empress</p>
+<P>Untamed</P>
+    </div>
+    <div class="Storygallery">
+        <h3>love & Reality</h3>
+        <p>Twisted</p>
+        <p>Pathfinder</p>
+        <P>Cathedral</P>
+        <p>Not Alone</p>
+            </div>
+            <div class="Storygallery">
+                <h3>Thrillers</h3>
+                <p>X-Killer</p>
+                <p>Dangerman</p>
+                <P>Headshot</P>
+                <p>Retribution</p>
+                    </div>
+
+    </div>
+</section>
+<!--------Javascript for Toggle Menu-------->
+<script>
+ var navLinks = document.getElementById("navLinks");
+
+ function showMenu(){
+     navLinks.style.right ="0";
+ }
+ function hideMenu(){
+     navLinks.style.right ="-200px";
+    }
+ 
+
+</script>
+
+    </body>
+</html>
