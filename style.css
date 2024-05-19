@@ -160,13 +160,119 @@ box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 }
 @media(max-width: 700px){
     .row{
-        flex-direction: column;
+        flex-direction:column ;
     }
 }
 
+/*----- Explore -----*/
+.Explore{
+    width: 80%;
+    margin: auto;
+    text-align:center;
+    padding-top: 50px;
+}
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items:center;
+    gap: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+  }
+  
+  .gallery img {
+    width: 200%;
+    max-width: 350px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .gallery::after {
+    content: "";
+    width: 350px;
+  }
+  
+  p{
+    text-align:center;
+  }
+  .atr{
+    text-align: left;
+  }
+  
+  .Otherskills{
+    width: 80%;
+    margin:auto;
+    text-align: center;
+    padding-top: 100px;
 
+  }
+  .Otherskills img{
+    width: 300px;
+    max-width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50px;
+  }
 
+.MyOtherskills{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 0%;
+    text-align: left ;
+}
+.MyOtherskills p{
+    padding: 0;
+}
+.MyOtherskills h3{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: center;
+}
 
+ /*----- call to action -----*/
+ .cta{
+    margin: 100px;
+    width: 80%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(Images/rodrigo-soares-Mg50HZNWtyc-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+ }
+ .cta h1{
+    color: #fff;
+    margin-bottom: 40px;
+    padding: 0%;
+ }
+ @media(max-width: 700px){
+    .cta h1{
+        font-size: 24px;
+    }
+ }
+    
+ /*----- footer -----*/
+ .footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
 
-     
-
+ }
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.icons fa{
+    color: #f44336;
+    margin: 0% 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
+.fa fa-heart-o{
+   color: #f44336; 
+}
